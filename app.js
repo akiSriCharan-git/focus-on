@@ -8,7 +8,8 @@ app.use(express.json());
 
 mongoose.connect(process.env.MONGO, {
   useNewUrlParser: true,
-  useUnifiedTopology: true
+  useUnifiedTopology: true,
+  useFindAndModify: false
 })
 .then(()=>{
   console.log('successfully connected to database')
@@ -18,7 +19,7 @@ mongoose.connect(process.env.MONGO, {
 });
 
 const routes = require('./api/');
-app.use('/', routes.home);
+app.use('/home', routes.home);
 const schemas = require('./models/schemas');
 port = process.env.PORT || 3000;
 app.listen(port, ()=>{
