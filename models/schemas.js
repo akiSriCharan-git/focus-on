@@ -14,7 +14,7 @@ const home = {
   benefits: [
     {
       heading: String,
-      context: String,
+      text: String,
       image: String
     }
   ],

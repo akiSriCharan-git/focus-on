@@ -1,0 +1,80 @@
+{
+  "mainHeading": "FOCUS-ON DECENTRALIZED FLOW CONTROL",
+  "heading2": {
+    "name": "Main Drivers",
+    "content": [
+      {
+        "image": "image1",
+        "name": "MOORE'S LAW",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non lobortis nulla, quis scelerisque nibh. Sed ut enim sed nunc auctor iaculis. Duis auctor enim nisi, quis semper arcu sagittis in."
+      },
+      {
+        "image": "image2",
+        "name": "ACCESS",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non lobortis nulla, quis scelerisque nibh. Sed ut enim sed nunc auctor iaculis. Duis auctor enim nisi, quis semper arcu sagittis in."
+      },
+      {
+        "image": "image3",
+        "name": "SIMPLICITY",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non lobortis nulla, quis scelerisque nibh. Sed ut enim sed nunc auctor iaculis. Duis auctor enim nisi, quis semper arcu sagittis in."
+      }
+    ]
+  },
+  "benefits": [
+    {
+      "image": "images1",
+      "heading": "RELIABILITY",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non lobortis nulla, quis scelerisque nibh. Sed ut enim sed nunc auctor iaculis. Duis auctor enim nisi, quis semper arcu sagittis in."
+    },
+    {
+      "image": "image2",
+      "heading": "DATA SAFETY",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non lobortis nulla, quis scelerisque nibh. Sed ut enim sed nunc auctor iaculis. Duis auctor enim nisi, quis semper arcu sagittis in."
+    },
+    {
+      "image": "image3",
+      "heading": "EFFICIENCY",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non lobortis nulla, quis scelerisque nibh. Sed ut enim sed nunc auctor iaculis. Duis auctor enim nisi, quis semper arcu sagittis in."
+    }
+  ],
+  "awards": {
+    "image": "image1",
+    "text1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non lobortis nulla, quis scelerisque nibh. Sed ut enim sed nunc auctor iaculis. Duis auctor enim nisi, quis semper arcu sagittis in.",
+    "text2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non lobortis nulla, quis scelerisque nibh. Sed ut enim sed nunc auctor iaculis. Duis auctor enim nisi, quis semper arcu sagittis in."
+  },
+  "caseStudies": [
+    {
+      "image": "image1",
+      "heading": "AkzoNobel",
+      "subHeading": "Embracing Industry 4.0",
+      "link": "link1",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non lobortis nulla, quis scelerisque nibh. Sed ut enim sed nunc auctor iaculis. Duis auctor enim nisi, quis semper arcu sagittis in."
+    },
+    {
+      "image": "image2",
+      "heading": "AkzoNobel",
+      "subHeading": "Embracing Industry 4.0",
+      "link": "link2",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non lobortis nulla, quis scelerisque nibh. Sed ut enim sed nunc auctor iaculis. Duis auctor enim nisi, quis semper arcu sagittis in."
+    }
+  ],
+  "reviews": [
+    {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non lobortis nulla, quis scelerisque nibh. Sed ut enim sed nunc auctor iaculis. Duis auctor enim nisi, quis semper arcu sagittis in.",
+      "image": "image1",
+      "name": "John Doe",
+      "position": "Executive Team Shell"
+    }
+  ],
+  "heading3": {
+    "name": "Learn more about FOCUS-1",
+    "text": "Or explore our product page to read more about out solutions. Sed portittor, quam non",
+    "content": [
+      {
+        "image": "image1",
+        "name": "MARKETS",
+        "link": "link1"
+      }
+    ]
+  }
+}
