@@ -19,7 +19,7 @@ mongoose.connect(process.env.MONGO, {
 });
 
 const routes = require('./api/');
-app.use('/home', routes.home);
+app.use('/api', routes);
 const schemas = require('./models/schemas');
 port = process.env.PORT || 3000;
 app.listen(port, ()=>{

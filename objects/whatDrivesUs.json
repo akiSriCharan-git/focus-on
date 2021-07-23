@@ -5,10 +5,33 @@
     "subheading":{
       "name": "THE OPPORTUNITY",
       "text1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non lobortis nulla, quis scelerisque.",
-      "text2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non lobortis nulla, quis scelerisque.",
+      "text2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non lobortis nulla, quis scelerisque."
     }
   },
   "carouselItems": [
-
+    {
+      "name": "CLIMATE CHANGE",
+      "image": "image1",
+      "rightText": "GLOBAL TREND 01"
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non lobortis nulla, quis scelerisque.",
+      "bgimage": "bgimage1"
+    }
+  ],
+  "section2": {
+    "name": "IIOT",
+    "text1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non lobortis nulla, quis scelerisque.",
+    "text2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non lobortis nulla, quis scelerisque.",
+    "text3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non lobortis nulla, quis scelerisque.",
+    "text4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non lobortis nulla, quis scelerisque."
+  },
+  "section3": [
+    {
+      "heading": "Our Focus 1",
+      "mainText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non lobortis nulla, quis scelerisque.",
+      "subHeading": "SIMPLICITY",
+      "text1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non lobortis nulla, quis scelerisque.",
+      "text2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non lobortis nulla, quis scelerisque.",
+      "text3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non lobortis nulla, quis scelerisque."
+    }
   ]
 }

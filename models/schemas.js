@@ -65,6 +65,7 @@ const whatDrivesUs = {
   },
   carouselItems: [
     {
+      rightText: String,
       name: String,
       image: String,
       text: String,
@@ -91,7 +92,7 @@ const whatDrivesUs = {
 }
 
 const markets = {
-  heding: String,
+  heading: String,
   text: String,
   markets: [
     {
