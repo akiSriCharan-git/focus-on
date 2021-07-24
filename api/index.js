@@ -73,9 +73,9 @@ router.delete('/:page/:key1/:key2?', async(req, res)=>{
   }
 });
 
-router.put('/:page', async(req, res)=>{
+router.patch('/:page', async(req, res)=>{
   try{
-    const page = await pageModels[req.params.page].findOneAndUpdate({}, req.body, {new: true})
+    const page = await pageModels[req.params.page].findOneAndUpdate({}, {$set: req.body}, {new: true})
     return res.status(201).json(page)
   }catch(err){
     console.log(err)
