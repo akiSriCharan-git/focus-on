@@ -21,6 +21,10 @@ mongoose.connect(process.env.MONGO, {
 const routes = require('./api/');
 app.use('/api', routes);
 const schemas = require('./models/schemas');
+
+// app.get('/jstojson', (req, res)=>{
+  // return res.status(200).json(product)
+// })
 port = process.env.PORT || 3000;
 app.listen(port, ()=>{
   console.log('Server started')

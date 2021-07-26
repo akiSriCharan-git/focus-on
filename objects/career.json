@@ -1,0 +1,14 @@
+{
+  "heading1": {
+    "name": "How We Work",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non lobortis nulla, quis scelerisque nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non lobortis nulla, quis scelerisque nibh."
+  },
+  "jobs": [
+    {
+      "jobTitle": "Hardware Engineer",
+      "description": "As Hardware Electronics Engineer, you will design the technology of the future FOCUS-ON products. Using solid knowledge from your experience and education, you will play an important role in the development of a variety of useful products as well as modifications and improvements to existing products.",
+      "location": "Dordrecht, NL",
+      "downloadLink": "link1"
+    }
+  ]
+}

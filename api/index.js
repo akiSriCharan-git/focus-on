@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const pageModels = require('./../models/schemas');
-
+router.use('/', require('./product page apis'));
 router.get('/:page', async(req, res)=>{
   try{
     const page = await pageModels[req.params.page].findOne()
@@ -29,7 +29,7 @@ router.post('/:page', async(req, res)=>{
   }
 });
 
-router.patch('/:page/:key1/:key2?', async(req, res)=>{
+router.post('/:page/:key1/:key2?', async(req, res)=>{
   try{
     const page = await pageModels[req.params.page].findOne()
     if (!req.params.key2){
@@ -55,13 +55,13 @@ router.delete('/:page/:key1/:key2?', async(req, res)=>{
   try{
     const page = await pageModels[req.params.page].findOne()
     if (!req.params.key2){
-      page[req.params.key1].splice(req.query.index)
+      page[req.params.key1].splice(req.query.index, 1)
     }else{
       page[req.params.key1][req.params.key2].splice(req.query.index)
     }
     page.save()
     .then(()=>{
-      return res.status(201).json(page)
+      return res.status(200).json(page)
     })
     .catch(err=>{
       console.log(err)
@@ -81,6 +81,30 @@ router.patch('/:page', async(req, res)=>{
     console.log(err)
     return res.sendStatus(500)
   }
-})
+});
+
+router.patch('/:page/:key1/:key2?', async(req, res)=>{
+  try{
+    const page = await pageModels[req.params.page].findOne()
+    if(!req.params.key2){
+      page[req.params.key1][req.query.index] = req.body
+    }else{
+      page[req.params.key1][req.params.key2][req.query.index] = req.body
+    }
+    page.save()
+    .then(()=>{
+      return res.status(200).json(page)
+    })
+    .catch(err=>{
+      console.log(err)
+      return res.sendStatus(500)
+    })
+  }catch(err){
+    console.log(err)
+    return res.sendStatus(400)
+  }
+});
+
+
 
 module.exports = router;
