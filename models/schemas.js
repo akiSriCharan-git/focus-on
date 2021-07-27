@@ -280,15 +280,6 @@ const career = {
   ]
 }
 
-const faq = {
-  faq: [
-    {
-      question: String,
-      answer: String,
-      section: String
-    }
-  ]
-};
 
 const documentation = {
   documentation: [
@@ -313,6 +304,5 @@ const Services = mongoose.model('Services', new mongoose.Schema(services), 'serv
 const About = mongoose.model('About', new mongoose.Schema(about), 'about');
 const Contact = mongoose.model('Contact', new mongoose.Schema(contact), 'contact');
 const Career = mongoose.model('Career', new mongoose.Schema(career), 'career');
-const Faq = mongoose.model('Faq', new mongoose.Schema(faq), 'Faq');
 const Documentation = mongoose.model('Documentation', new mongoose.Schema(documentation), 'documentation');
-module.exports = {Home, WhatDrivesUs, Markets, Product, Services, About, Contact, Career, Faq, Documentation};
+module.exports = {Home, WhatDrivesUs, Markets, Product, Services, About, Contact, Career, Documentation};

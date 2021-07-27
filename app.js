@@ -19,7 +19,11 @@ mongoose.connect(process.env.MONGO, {
 });
 
 const routes = require('./api/');
+const caseStudyRoutes = require('./api/caseStudy');
+const faqRoutes = require('./api/faq')
 app.use('/api', routes);
+app.use('/CaseStudy', caseStudyRoutes);
+app.use('/Faq', faqRoutes)
 const schemas = require('./models/schemas');
 
 // app.get('/jstojson', (req, res)=>{
