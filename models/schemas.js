@@ -183,7 +183,7 @@ const services = {
     dropDown: [
       {
         heading: String,
-        context: String
+        text: String
       }
     ]
   },
@@ -193,7 +193,7 @@ const services = {
     dropDown: [
       {
         heading: String,
-        context: String
+        text: String
       }
     ]
   },
@@ -203,7 +203,7 @@ const services = {
     dropDown: [
       {
         heading: String,
-        context: String
+        text: String
       }
     ]
   },

@@ -1,0 +1,44 @@
+{
+  "precapex": {
+    "traditional": 33,
+    "focusOne": 20,
+    "dropDown": [
+      {
+      "heading": "LOREM IPSUM",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum, libero vitae scelerisque semper, metus justo rhoncus elit, a aliquet est est sollicitudin nisi. Nunc felis ante, consectetur quis consequat quis, cursus tincidunt sem. Etiam fermentum lorem massa, fermentum luctus lacus."
+      }
+    ]
+  },
+  "capex": {
+    "traditional": 33,
+    "focusOne": 20,
+    "dropDown": [
+      {
+      "heading": "LOREM IPSUM",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum, libero vitae scelerisque semper, metus justo rhoncus elit, a aliquet est est sollicitudin nisi. Nunc felis ante, consectetur quis consequat quis, cursus tincidunt sem. Etiam fermentum lorem massa, fermentum luctus lacus."
+      }
+    ]
+  },
+  "postcapex": {
+    "traditional": 33,
+    "focusOne": 20,
+    "dropDown": [
+      {
+      "heading": "LOREM IPSUM",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum, libero vitae scelerisque semper, metus justo rhoncus elit, a aliquet est est sollicitudin nisi. Nunc felis ante, consectetur quis consequat quis, cursus tincidunt sem. Etiam fermentum lorem massa, fermentum luctus lacus."
+      }
+    ]
+  },
+  "employee": {
+      "name": "John Doe",
+      "image": "link1",
+      "position": "Head of Engineering",
+      "email": "j.doe@fon-p.com",
+      "phone": "+31(0)6XXXXXXXX"
+  },
+  "bottom": {
+      "text1": "Contact our product expert to see how our solutions can help you.",
+      "text2": "Or explore our services page to learn more about our services .",
+      "link": "link1"
+  }
+}
