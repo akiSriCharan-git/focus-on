@@ -1,0 +1,43 @@
+{
+  "heading1": {
+    "name": "Vision, Mission, Responsibility",
+    "text1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis ligula quis sem dictum faucibus eu sed mauris. Integer sollicitudin risus non dapibus congue.",
+    "text2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis ligula quis sem dictum faucibus eu sed mauris. Integer sollicitudin risus non dapibus congue.",
+    "text3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis ligula quis sem dictum faucibus eu sed mauris. Integer sollicitudin risus non dapibus congue."
+  },
+  "awards":[
+    {
+      "name": "Red Dot Award 1",
+      "date": "04-02-2021",
+      "text": "We are proud to have been awarded a Red Dot!",
+      "image": "image1"
+    }
+  ],
+  "heading2": {
+    "name": "FOCUS-ON",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis ligula quis sem dictum faucibus eu sed mauris. Integer sollicitudin risus non dapibus congue."
+  },
+  "team": {
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis ligula quis sem dictum faucibus eu sed mauris. Integer sollicitudin risus non dapibus congue.",
+    "members": [
+      {
+        "name": "John Doe 1",
+        "image": "image1",
+        "position": "CTO"
+      }
+    ]
+  },
+  "heading3": {
+    "name": "Work Culture",
+    "text1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis ligula quis sem dictum faucibus eu sed mauris. Integer sollicitudin risus non dapibus congue.",
+    "text2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis ligula quis sem dictum faucibus eu sed mauris. Integer sollicitudin risus non dapibus congue.",
+    "text3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis ligula quis sem dictum faucibus eu sed mauris. Integer sollicitudin risus non dapibus congue."
+  },
+  "comments": [
+    {
+      "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis ligula quis sem dictum faucibus eu sed mauris. Integer sollicitudin risus non dapibus congue.",
+      "name": "John Doe",
+      "position": "Executive Team Shell"
+    }
+  ]
+}

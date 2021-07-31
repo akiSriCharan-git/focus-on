@@ -1,0 +1,11 @@
+{
+  "heading": "Markets",
+  "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus maximus augue in magna bibendum pharetra. Mauris dignissim nec purus vitae condimentum. Mauris dapibus condimentum ipsum, id vestibulum purus hendrerit vel. Etiam ultrices pretium eleifend. Sed felis tortor, egestas consequat orci pharetra, congue volutpat. Mauris dignissim nec purus vitae condimentum.",
+  "markets": [
+    {
+      "name": "FOOD & BEVARAGE",
+      "image": "image1",
+      "link": "link1"
+    }
+  ]
+}

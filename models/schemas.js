@@ -65,6 +65,7 @@ const whatDrivesUs = {
   },
   carouselItems: [
     {
+      rightText: String,
       name: String,
       image: String,
       text: String,
@@ -91,7 +92,7 @@ const whatDrivesUs = {
 }
 
 const markets = {
-  heding: String,
+  heading: String,
   text: String,
   markets: [
     {
@@ -120,32 +121,38 @@ const product = {
     ]
   },
   section8: String,
-  Benefits: [
-    {
-      name: String,
-      content: [
-        {
-          name: String,
-          stars: Number
-        }
-      ],
-      image: String
-    }
-  ],
-  portfolio: [
-    {
-      name: String,
-      availability: String,
-      image: String,
-      properties: [
-        {
-          name: String,
-          value: String
-        }
-      ],
-      documentation: String
-    }
-  ],
+  section9: {
+    name: String,
+    cards: [
+      {
+        name: String,
+        content: [
+          {
+            name: String,
+            stars: Number
+          }
+        ],
+        image: String
+      }
+    ]
+  },
+  section10:{
+    name: String,
+    cards: [
+      {
+        name: String,
+        availability: String,
+        image: String,
+        properties: [
+          {
+            name: String,
+            value: String
+          }
+        ],
+        documentation: String
+      }
+    ]
+  },
   caseStudies:[
   {
     heading: String,
@@ -176,7 +183,7 @@ const services = {
     dropDown: [
       {
         heading: String,
-        context: String
+        text: String
       }
     ]
   },
@@ -186,7 +193,7 @@ const services = {
     dropDown: [
       {
         heading: String,
-        context: String
+        text: String
       }
     ]
   },
@@ -196,7 +203,7 @@ const services = {
     dropDown: [
       {
         heading: String,
-        context: String
+        text: String
       }
     ]
   },
@@ -219,7 +226,7 @@ const about = {
   awards: [
     {
       name: String,
-      date: Date,
+      date: String,
       text: String,
       image: String
     }
@@ -273,16 +280,16 @@ const career = {
   ]
 }
 
-const faq = {
-  faq: [
-    {
-      question: String,
-      answer: String,
-      section: String
-    }
-  ]
-};
 
+const documentation = {
+  documentation: [
+    {
+        dataSheet: String,
+        date: String,
+        pdf: String
+      }
+  ]
+}
 // const homeSchema = new mongoose.Schema(home);
 // const whatDrivesUsSchema = new mongoose.Schema(whatDrivesUs);
 // const marketsSchema = new mongoose.Schema(markets);
@@ -297,6 +304,5 @@ const Services = mongoose.model('Services', new mongoose.Schema(services), 'serv
 const About = mongoose.model('About', new mongoose.Schema(about), 'about');
 const Contact = mongoose.model('Contact', new mongoose.Schema(contact), 'contact');
 const Career = mongoose.model('Career', new mongoose.Schema(career), 'career');
-const Faq = mongoose.model('Faq', new mongoose.Schema(faq), 'Faq');
-
-module.exports = {Home, WhatDrivesUs, Markets, Product, Services, About, Contact, Career, Faq};
+const Documentation = mongoose.model('Documentation', new mongoose.Schema(documentation), 'documentation');
+module.exports = {Home, WhatDrivesUs, Markets, Product, Services, About, Contact, Career, Documentation};
