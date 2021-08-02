@@ -1,0 +1,36 @@
+version: "3.9"
+
+networks:
+  web:
+    external: true
+  internal:
+    external: false
+
+services:
+  app:
+    build:
+        context: .
+    labels:
+      - traefik.http.routers.focus-on.rule=Host(`focus-on.edalytics.com`)
+      - traefik.http.routers.focus-on.tls=true
+      - traefik.http.routers.focus-on.tls.certresolver=lets-encrypt
+      - traefik.port=3000
+    depends_on:
+      - db
+    networks:
+      - web
+  
+  db:
+    image: mongo
+    volumes:
+      - mongo-data:/data/db
+    labels:
+      - traefik.enable=false
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: 
+      MONGO_INITDB_ROOT_PASSWORD: 
+    networks:
+      - internal
+    
+volumes:
+  mongo-data:
