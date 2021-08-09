@@ -55,9 +55,9 @@ router.delete('/:page/:key1/:key2?', async(req, res)=>{
   try{
     const page = await pageModels[req.params.page].findOne()
     if (!req.params.key2){
-      page[req.params.key1].splice(req.query.index, 1)
+      page[req.params.key1].splice(page[req.params.key1].findIndex(a => a._id == req.query.id), 1)
     }else{
-      page[req.params.key1][req.params.key2].splice(req.query.index)
+      page[req.params.key1][req.params.key2].splice(page[req.params.key1][req.params.key2].findIndex(a => a._id == req.query.id), 1)
     }
     page.save()
     .then(()=>{
