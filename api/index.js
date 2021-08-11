@@ -87,9 +87,11 @@ router.patch('/:page/:key1/:key2?', async(req, res)=>{
   try{
     const page = await pageModels[req.params.page].findOne()
     if(!req.params.key2){
-      page[req.params.key1][req.query.index] = req.body
+      const index = page[req.params.key1].findIndex(a => a._id == req.query.id)
+      page[req.params.key1][index] = req.body
     }else{
-      page[req.params.key1][req.params.key2][req.query.index] = req.body
+      const index = page[req.params.key1][req.params.key2].findIndex(a => a._id == req.query.id)
+      page[req.params.key1][req.params.key2][index] = req.body
     }
     page.save()
     .then(()=>{
